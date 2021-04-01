@@ -2,7 +2,6 @@
 package main
 
 import (
-	"fmt"
 	"unsafe"
 )
 
@@ -16,6 +15,7 @@ func is_big_endian() bool {
 	}
 }
 
+/*
 func main() {
 	rc := is_big_endian()
 	if rc == true {
@@ -24,3 +24,4 @@ func main() {
 		fmt.Println("system is little endian.")
 	}
 }
+*/
